@@ -1,5 +1,5 @@
 title = "frinux.fr"
-baseURL = 'https://frinux.github.io/frinux.fr/'
+baseURL = 'https://frinux.fr/'
 languageCode = 'fr-fr'
 defaultContentLanguage = "fr"
 
@@ -40,7 +40,7 @@ ignoreErrors = ["additional-script-loading-error"]
   defaultColor = "auto"
   description = "Mon blog personnel"
   mainSections = ['posts']
-  toc = true
+  toc = false
   tocOpen = false
   goToTop = true
   dateFormat = "2 January 2006"
@@ -48,13 +48,17 @@ ignoreErrors = ["additional-script-loading-error"]
 
 [params.author]
   # avatar = "avatar.jpg"  # Put your avatar in assets/ folder
-  intro = "frinux.fr"
+  intro = "frinux"
   name = "Francois"
-  description = "Mon blog personnel"
+  description = "Développeur fullstack senior. Nantais. Je consacre mon activité pro à des sujets à impact"
 
 [[params.socialIcons]]
   name = "github"
   url = "https://github.com/frinux"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/francoislequemener/"
 
 [[params.socialIcons]]
   name = "Rss"

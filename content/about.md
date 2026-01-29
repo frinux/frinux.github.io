@@ -6,4 +6,3 @@ draft: false
 
 Bienvenue sur mon blog.
 
-Cette page est a personnaliser selon vos besoins.
