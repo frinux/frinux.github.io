@@ -1,0 +1,61 @@
+title = "frinux.fr"
+baseURL = 'https://frinux.github.io/frinux.fr/'
+languageCode = 'fr-fr'
+defaultContentLanguage = "fr"
+
+theme = "hugo-blog-awesome"
+
+enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[menu]
+  [[menu.main]]
+    pageRef = "/"
+    name = 'Accueil'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    pageRef = "posts"
+    name = 'Articles'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
+    pageRef = "about"
+    name = 'A propos'
+    url = '/about/'
+    weight = 30
+
+[params]
+  sitename = "frinux.fr"
+  defaultColor = "auto"
+  description = "Mon blog personnel"
+  mainSections = ['posts']
+  toc = true
+  tocOpen = false
+  goToTop = true
+  dateFormat = "2 January 2006"
+  rssFeedDescription = "summary"
+
+[params.author]
+  # avatar = "avatar.jpg"  # Put your avatar in assets/ folder
+  intro = "frinux.fr"
+  name = "Francois"
+  description = "Mon blog personnel"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/frinux"
+
+[[params.socialIcons]]
+  name = "Rss"
+  url = "/index.xml"
